@@ -1,42 +1,61 @@
-import { TiHome } from "react-icons/ti";
+import { AiFillHome } from "react-icons/ai";
 import { FaStar } from "react-icons/fa";
 import { FaBookOpen } from "react-icons/fa";
 import { FaCirclePlay } from "react-icons/fa6";
 import { RiTeamFill } from "react-icons/ri";
 import { MdEmail } from "react-icons/md";
+import { NavLink } from "react-router-dom";
 
 const Navbar = () => {
   return (
-    <nav className="tab-nav overflow-x-auto flex border-b border-gray-200">
-      <button className="flex items-center gap-2 flex-shrink-0 p-4 border-b-2 border-transparent">
-        <TiHome />
+    <nav className="tab-nav overflow-x-auto flex border-b border-gray-200 pt-4">
+      <NavLink
+        to="/"
+        className="tab-link flex items-center gap-2 flex-shrink-0 p-4 border-b-2 border-transparent transition duration-200"
+      >
+        <AiFillHome className="text-xl" />
         <span>Home</span>
-      </button>
+      </NavLink>
 
-      <button className="flex items-center gap-2 flex-shrink-0 p-4 border-b-2 border-transparent">
-        <FaStar />
+      <NavLink
+        to="/features"
+        className="tab-link flex items-center gap-2 flex-shrink-0 p-4 border-b-2 border-transparent transition duration-200"
+      >
+        <FaStar className="text-lg" />
         <span>Features</span>
-      </button>
+      </NavLink>
 
-      <button className="flex items-center gap-2 flex-shrink-0 p-4 border-b-2 border-transparent">
-        <FaBookOpen />
+      <NavLink
+        to="/research"
+        className="tab-link flex items-center gap-2 flex-shrink-0 p-4 border-b-2 border-transparent transition duration-200"
+      >
+        <FaBookOpen className="text-lg" />
         <span>Research</span>
-      </button>
+      </NavLink>
 
-      <button className="flex items-center gap-2 flex-shrink-0 p-4 border-b-2 border-transparent">
+      <NavLink
+        to="/demo"
+        className="tab-link flex items-center gap-2 flex-shrink-0 p-4 border-b-2 border-transparent transition duration-200"
+      >
         <FaCirclePlay />
         <span>Demo</span>
-      </button>
+      </NavLink>
 
-      <button className="flex items-center gap-2 flex-shrink-0 p-4 border-b-2 border-transparent">
-        <RiTeamFill />
+      <NavLink
+        to="/team"
+        className="tab-link flex items-center gap-2 flex-shrink-0 p-4 border-b-2 border-transparent transition duration-200"
+      >
+        <RiTeamFill className="text-lg" />
         <span>Team</span>
-      </button>
+      </NavLink>
 
-      <button className="flex items-center gap-2 flex-shrink-0 p-4 border-b-2 border-transparent">
-        <MdEmail />
+      <NavLink
+        to="/contact"
+        className="tab-link flex items-center gap-2 flex-shrink-0 p-4 border-b-2 border-transparent"
+      >
+        <MdEmail className="text-lg" />
         <span>Contact</span>
-      </button>
+      </NavLink>
     </nav>
   );
 };
