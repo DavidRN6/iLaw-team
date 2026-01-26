@@ -1,14 +1,13 @@
 import { AiFillHome } from "react-icons/ai";
 import { FaStar } from "react-icons/fa";
-import { FaBookOpen } from "react-icons/fa";
-import { FaCirclePlay } from "react-icons/fa6";
+import { FaUniversity } from "react-icons/fa";
 import { RiTeamFill } from "react-icons/ri";
 import { MdEmail } from "react-icons/md";
 import { NavLink } from "react-router-dom";
 
 const Navbar = () => {
   return (
-    <nav className="tab-nav overflow-x-auto flex border-b border-gray-200 pt-4">
+    <nav className="tab-nav overflow-x-auto flex border-b border-border pt-4">
       <NavLink
         to="/"
         className="tab-link flex items-center gap-2 flex-shrink-0 p-4 border-b-2 border-transparent transition duration-200"
@@ -26,20 +25,13 @@ const Navbar = () => {
       </NavLink>
 
       <NavLink
-        to="/research"
+        to="/nexus"
         className="tab-link flex items-center gap-2 flex-shrink-0 p-4 border-b-2 border-transparent transition duration-200"
       >
-        <FaBookOpen className="text-lg" />
-        <span>Research</span>
+        <FaUniversity className="text-lg" />
+        <span>Nexus</span>
       </NavLink>
 
-      <NavLink
-        to="/demo"
-        className="tab-link flex items-center gap-2 flex-shrink-0 p-4 border-b-2 border-transparent transition duration-200"
-      >
-        <FaCirclePlay />
-        <span>Demo</span>
-      </NavLink>
 
       <NavLink
         to="/team"

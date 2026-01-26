@@ -1,3 +1,16 @@
+/* ======================
+  table of contents
+=========================
+
+  1. Imports
+  2. Hero
+  3. Who Are We
+  4. What happened at CU AI Nexus 2025
+*/
+
+//==============
+// 1. Imports
+//==============
 import { FaRobot } from "react-icons/fa6";
 import Lottie from "lottie-react";
 import chatAnimation from "../animation/Chat Animation.json";
@@ -5,8 +18,10 @@ import chatAnimation from "../animation/Chat Animation.json";
 const Home = () => {
   return (
     <section className="py-16">
-      {/* Hero Section */}
-      <div className="text-center px-4">
+      {/*=========
+        2. Hero
+      ===========*/}
+      <div className="text-center lg:px-6">
         <h1 className="text-4xl md:text-6xl font-extrabold leading-tight max-w-5xl mx-auto">
           A Team Driven to Simplify Law Through AI.
         </h1>
@@ -16,8 +31,10 @@ const Home = () => {
         </p>
       </div>
 
-      {/* Who Are We Section */}
-      <div className="mt-24 px-4 max-w-6xl mx-auto text-center">
+      {/*===============
+        3. Who Are We
+      ==================*/}
+      <div className="mt-24 max-w-6xl mx-auto text-center">
         <h2 className="text-3xl md:text-4xl font-bold mb-6">Who Are We?</h2>
 
         <div className="flex justify-between items-center flex-col lg:flex-row gap-12">
@@ -71,6 +88,7 @@ const Home = () => {
           </a>
         </div>
       </div>
+
     </section>
   );
 };

@@ -3,11 +3,10 @@ import Header from "./components/Header";
 import Navbar from "./components/Navbar";
 import Home from "./pages/Home";
 import Features from "./pages/Features";
-import Research from "./pages/Research";
-import Demo from "./pages/Demo";
 import Team from "./pages/Team";
 import Contact from "./pages/Contact";
 import Footer from "./pages/Footer";
+import Nexus from "./pages/Nexus";
 
 function App() {
   return (
@@ -18,8 +17,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/features" element={<Features />} />
-          <Route path="/research" element={<Research />} />
-          <Route path="/demo" element={<Demo />} />
+          <Route path="//nexus" element={<Nexus />} />
           <Route path="/team" element={<Team />} />
           <Route path="/contact" element={<Contact />} />
         </Routes>

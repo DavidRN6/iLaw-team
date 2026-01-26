@@ -8,6 +8,7 @@ export default {
         navbar: "#FFFEFC",
         background: "#FFF9EF",
         hover: "#007BFF",
+        border: "#e2e8f0",
       },
     },
   },
