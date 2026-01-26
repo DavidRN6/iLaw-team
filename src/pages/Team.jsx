@@ -38,6 +38,7 @@ const Team = () => {
         {/* Heidi Ahmed */}
         <div className="group bg-transparent p-6 rounded-2xl shadow-lg border border-border text-center">
           <img
+            loading="lazy"
             src={assets.david}
             alt="David"
             className="w-32 h-32 rounded-full mx-auto border-4 border-white shadow-lg group-hover:scale-105 transition-transform"
@@ -62,6 +63,7 @@ const Team = () => {
         {/* Mohammed El Sayed */}
         <div className="group bg-transparent p-6 rounded-2xl shadow-lg border border-border text-center">
           <img
+            loading="lazy"
             src={assets.david}
             alt="David"
             className="w-32 h-32 rounded-full mx-auto border-4 border-white shadow-lg group-hover:scale-105 transition-transform"
@@ -86,6 +88,7 @@ const Team = () => {
         {/* Ali Khadr */}
         <div className="group bg-transparent p-6 rounded-2xl shadow-lg border border-border text-center">
           <img
+            loading="lazy"
             src={assets.david}
             alt="David"
             className="w-32 h-32 rounded-full mx-auto border-4 border-white shadow-lg group-hover:scale-105 transition-transform"
@@ -110,6 +113,7 @@ const Team = () => {
         {/* Duaa */}
         <div className="group bg-transparent p-6 rounded-2xl shadow-lg border border-border text-center">
           <img
+            loading="lazy"
             src={assets.david}
             alt="David"
             className="w-32 h-32 rounded-full mx-auto border-4 border-white shadow-lg group-hover:scale-105 transition-transform"
@@ -134,6 +138,7 @@ const Team = () => {
         {/* David Raoof */}
         <div className="group bg-transparent p-6 rounded-2xl shadow-lg border border-border text-center">
           <img
+            loading="lazy"
             src={assets.david}
             alt="David"
             className="w-32 h-32 rounded-full mx-auto border-4 border-white shadow-lg group-hover:scale-105 transition-transform"

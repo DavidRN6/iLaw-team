@@ -64,6 +64,7 @@ const Nexus = () => {
         =============*/}
         <div className="w-full md:w-1/2 flex justify-center">
           <img
+            loading="lazy"
             src={assets.nexus}
             alt="CU AI Nexus 2025"
             className="w-full max-w-md object-cover"
