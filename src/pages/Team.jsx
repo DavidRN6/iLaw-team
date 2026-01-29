@@ -25,7 +25,7 @@ const Team = () => {
           Meet the iLaw Team.
         </h1>
 
-        <p className="mt-4 mb-12 text-lg md:text-xl text-gray-600 max-w-3xl mx-auto">
+        <p className="mt-4 mb-12 text-base md:text-lg text-gray-600 max-w-3xl mx-auto">
           A dedicated team of 5 law students from the Faculty of Law, Cairo
           University.
         </p>
