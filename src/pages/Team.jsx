@@ -35,24 +35,25 @@ const Team = () => {
         3. Team Members
       ===================*/}
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-        {/* Heidi Ahmed */}
+        {/* Heidi Elshaarawy */}
         <div className="group bg-transparent p-6 rounded-2xl shadow-lg border border-border text-center">
           <img
             loading="lazy"
-            src={assets.david}
-            alt="David"
+            src={assets.heidi}
+            alt="Heidi Elshaarawy"
             className="w-32 h-32 rounded-full mx-auto border-4 border-white shadow-lg group-hover:scale-105 transition-transform"
           />
-          <h4 className="mt-4 font-bold">David Raoof</h4>
+          <h4 className="mt-4 font-bold">Heidi Elshaarawy</h4>
           <div className="flex justify-center gap-4 mt-3">
             <a
-              href=""
+              href="https://www.linkedin.com/in/haidy-elsharawy"
+              target="_blank"
               className="text-gray-400 hover:scale-110 transition-transform text-2xl"
             >
               <FaLinkedin />
             </a>
             <a
-              href="mailto:david.raoofz@gmail.com"
+              href="mailto:Haidybusiness504@gmail.com"
               className="text-gray-400 hover:scale-110 transition-transform text-2xl"
             >
               <MdEmail />
@@ -64,20 +65,21 @@ const Team = () => {
         <div className="group bg-transparent p-6 rounded-2xl shadow-lg border border-border text-center">
           <img
             loading="lazy"
-            src={assets.david}
-            alt="David"
+            src={assets.moo}
+            alt="Mohammed El Sayed"
             className="w-32 h-32 rounded-full mx-auto border-4 border-white shadow-lg group-hover:scale-105 transition-transform"
           />
-          <h4 className="mt-4 font-bold">David Raoof</h4>
+          <h4 className="mt-4 font-bold">Mohammed El Sayed</h4>
           <div className="flex justify-center gap-4 mt-3">
             <a
-              href=""
+              href="https://www.linkedin.com/in/mohammed-elsayed-613b8a321/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+              target="_blank"
               className="text-gray-400 hover:scale-110 transition-transform text-2xl"
             >
               <FaLinkedin />
             </a>
             <a
-              href="mailto:david.raoofz@gmail.com"
+              href="mailto:moo.elsayed.gaber@gmail.com"
               className="text-gray-400 hover:scale-110 transition-transform text-2xl"
             >
               <MdEmail />
@@ -89,20 +91,21 @@ const Team = () => {
         <div className="group bg-transparent p-6 rounded-2xl shadow-lg border border-border text-center">
           <img
             loading="lazy"
-            src={assets.david}
-            alt="David"
+            src={assets.ali}
+            alt="Ali Khadr"
             className="w-32 h-32 rounded-full mx-auto border-4 border-white shadow-lg group-hover:scale-105 transition-transform"
           />
-          <h4 className="mt-4 font-bold">David Raoof</h4>
+          <h4 className="mt-4 font-bold">Ali Khadr</h4>
           <div className="flex justify-center gap-4 mt-3">
             <a
-              href=""
+              href="https://www.linkedin.com/in/ali-ahmed-105644348"
+              target="_blank"
               className="text-gray-400 hover:scale-110 transition-transform text-2xl"
             >
               <FaLinkedin />
             </a>
             <a
-              href="mailto:david.raoofz@gmail.com"
+              href="mailto:ali.ah23th5277@gmail.com"
               className="text-gray-400 hover:scale-110 transition-transform text-2xl"
             >
               <MdEmail />
@@ -114,20 +117,21 @@ const Team = () => {
         <div className="group bg-transparent p-6 rounded-2xl shadow-lg border border-border text-center">
           <img
             loading="lazy"
-            src={assets.david}
-            alt="David"
+            src={assets.duaa}
+            alt="Duaa Tarek"
             className="w-32 h-32 rounded-full mx-auto border-4 border-white shadow-lg group-hover:scale-105 transition-transform"
           />
-          <h4 className="mt-4 font-bold">David Raoof</h4>
+          <h4 className="mt-4 font-bold">Duaa Tarek</h4>
           <div className="flex justify-center gap-4 mt-3">
             <a
-              href=""
+              href="https://www.linkedin.com/in/duaatarek/"
+              target="_blank"
               className="text-gray-400 hover:scale-110 transition-transform text-2xl"
             >
               <FaLinkedin />
             </a>
             <a
-              href="mailto:david.raoofz@gmail.com"
+              href="mailto:duaatarek.a@gmail.com"
               className="text-gray-400 hover:scale-110 transition-transform text-2xl"
             >
               <MdEmail />
