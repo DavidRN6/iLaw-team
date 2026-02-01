@@ -20,16 +20,16 @@ const Nexus = () => {
       {/*======================================
         2. What happened at CU AI Nexus 2025
       =========================================*/}
-      <h1 className="text-3xl md:text-4xl font-bold text-center px-4 leading-tight max-w-5xl mx-auto">
-        What Happened at CU AI Nexus 2025?
+      <h1 className="text-3xl md:text-4xl font-bold dark:text-navbar text-center px-4 leading-tight max-w-5xl mx-auto">
+        What Happened at <span className="dark:text-darkText">CU AI Nexus 2025?</span>
       </h1>
 
       <div className="mt-12 lg:mt-16 lg:px-6 flex flex-col lg:flex-row items-center justify-center gap-12">
         {/*=========
           3. Text
         ============*/}
-        <div className="max-w-2xl text-center lg:text-left">
-          <p className="text-base md:text-lg text-gray-700 leading-relaxed">
+        <div className="max-w-2xl text-center lg:text-left dark:text-darkDesc">
+          <p className="text-base md:text-lg leading-relaxed">
             <span className="font-semibold">CU AI Nexus 2025</span> was an
             AI-focused event and competition dedicated to exploring how
             artificial intelligence can be utilized in real-life and
@@ -38,7 +38,7 @@ const Nexus = () => {
             solutions.
           </p>
 
-          <p className="mt-4 text-base md:text-lg text-gray-700 leading-relaxed">
+          <p className="mt-4 text-base md:text-lg leading-relaxed">
             As <span className="font-semibold">iLaw Team</span>, we participated
             in the competition representing our vision of integrating AI into
             the legal field. Our project,{" "}
@@ -47,7 +47,7 @@ const Nexus = () => {
             access to legal knowledge.
           </p>
 
-          <p className="mt-4 text-base md:text-lg text-gray-700 leading-relaxed">
+          <p className="mt-4 text-base md:text-lg leading-relaxed">
             We proudly achieved{" "}
             <span className="font-semibold">
               first place in the qualification rounds
@@ -75,7 +75,7 @@ const Nexus = () => {
       {/*==================
         5. YouTube Video
       =====================*/}
-      <p className="mt-12 text-base font-medium md:text-lg text-gray-700 leading-relaxed text-center max-w-3xl mx-auto">
+      <p className="mt-12 text-base font-medium md:text-lg dark:text-navbar leading-relaxed text-center max-w-3xl mx-auto">
         To learn more details and see what really happened at CU AI Nexus 2025,
         you can watch the video below 👇.
       </p>

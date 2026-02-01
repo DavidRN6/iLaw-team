@@ -12,9 +12,15 @@ html {
 
 
 .tab-link.active {
-    color: #007BFF;
-    border-color: #007BFF;
+    color: #0466c8;
+    border-color: #0466c8;
     font-weight: 600;
+}
+
+/* Dark Mode */
+.dark .tab-link.active {
+  color: #BF4EF4;        /* darkText */
+  border-color: #BF4EF4;
 }
 
 .tab-nav {

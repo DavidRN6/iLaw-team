@@ -5,6 +5,8 @@ import heidi from "./hiedi.webp";
 import moo from "./moo.webp";
 import ali from "./ali.webp";
 import duaa from "./duaa.webp";
+import moon from "./Dark mode.webp";
+import sun from "./Light mode.webp";
 
 
 export const assets = {
@@ -15,4 +17,6 @@ export const assets = {
   moo,
   ali,
   duaa,
+  moon,
+  sun,
 };

@@ -14,9 +14,9 @@ function App() {
   const location = useLocation();
 
   return (
-    <div className="text-primary">
+    <div className="text-primary dark:bg-secondary transition-colors duration-300">
       <Header />
-      <div className="container px-6 mx-auto bg-background">
+      <div className="container px-6 mx-auto bg-background dark:bg-secondary transition-colors duration-300">
         <Navbar />
         <AnimatePresence mode="wait">
           <Routes location={location} key={location.pathname}>

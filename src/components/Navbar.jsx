@@ -7,7 +7,7 @@ import { NavLink } from "react-router-dom";
 
 const Navbar = () => {
   return (
-    <nav className="tab-nav overflow-x-auto flex border-b border-border pt-4">
+    <nav className="tab-nav overflow-x-auto flex border-b border-border dark:border-primary pt-4 dark:text-white">
       <NavLink
         to="/"
         className="tab-link flex items-center gap-2 flex-shrink-0 p-4 border-b-2 border-transparent transition duration-200"
