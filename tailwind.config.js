@@ -12,10 +12,12 @@ export default {
         border: "#e2e8f0",
 
         secondary: "#0C091C",
-        darkText: "#BF4EF4",
+        darkText: "#0466c8",
         darkDesc: "#d1d5db",
       },
     },
   },
   plugins: [],
 };
+
+//  BF4EF4  move

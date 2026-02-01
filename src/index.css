@@ -19,8 +19,8 @@ html {
 
 /* Dark Mode */
 .dark .tab-link.active {
-  color: #BF4EF4;        /* darkText */
-  border-color: #BF4EF4;
+  color: #0466c8;        /* darkText */
+  border-color: #0466c8;
 }
 
 .tab-nav {
