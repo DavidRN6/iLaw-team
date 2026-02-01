@@ -36,12 +36,12 @@ const Team = () => {
       ===================*/}
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
         {/* Heidi Elshaarawy */}
-        <div className="group bg-transparent p-6 rounded-2xl shadow-lg border-2 border-border dark:border-darkText text-center">
+        <div className="group bg-transparent p-6 rounded-2xl shadow-lg border border-border dark:border-primary text-center">
           <img
             loading="lazy"
             src={assets.heidi}
             alt="Heidi Elshaarawy"
-            className="w-32 h-32 rounded-full mx-auto border-4 border-white dark:border-darkText shadow-lg group-hover:scale-105 transition-transform"
+            className="w-32 h-32 rounded-full mx-auto border-2 border-white dark:border-primary shadow-lg group-hover:scale-105 transition-transform"
           />
           <h4 className="mt-4 font-bold dark:text-navbar">Heidi Elshaarawy</h4>
           <div className="flex justify-center gap-4 mt-3">
@@ -54,7 +54,7 @@ const Team = () => {
             </a>
             <a
               href="mailto:Haidybusiness504@gmail.com"
-              className="text-gray-400 dark:text-darkDesc hover:scale-110 transition-transform text-2xl"
+              className="text-gray-400 dark:text-darkDesc hover:scale-110 transition-transform text-[25px]"
             >
               <MdEmail />
             </a>
@@ -62,12 +62,12 @@ const Team = () => {
         </div>
 
         {/* Mohammed El Sayed */}
-        <div className="group bg-transparent p-6 rounded-2xl shadow-lg border-2 border-border dark:border-darkText text-center">
+        <div className="group bg-transparent p-6 rounded-2xl shadow-lg border border-border dark:border-primary text-center">
           <img
             loading="lazy"
             src={assets.moo}
             alt="Mohammed El Sayed"
-            className="w-32 h-32 rounded-full mx-auto border-4 border-white dark:border-darkText shadow-lg group-hover:scale-105 transition-transform"
+            className="w-32 h-32 rounded-full mx-auto border-2 border-white dark:border-primary shadow-lg group-hover:scale-105 transition-transform"
           />
           <h4 className="mt-4 font-bold dark:text-navbar">Mohammed El Sayed</h4>
           <div className="flex justify-center gap-4 mt-3">
@@ -80,7 +80,7 @@ const Team = () => {
             </a>
             <a
               href="mailto:moo.elsayed.gaber@gmail.com"
-              className="text-gray-400 dark:text-darkDesc hover:scale-110 transition-transform text-2xl"
+              className="text-gray-400 dark:text-darkDesc hover:scale-110 transition-transform text-[25px]"
             >
               <MdEmail />
             </a>
@@ -88,12 +88,12 @@ const Team = () => {
         </div>
 
         {/* Ali Khadr */}
-        <div className="group bg-transparent p-6 rounded-2xl shadow-lg border-2 border-border dark:border-darkText text-center">
+        <div className="group bg-transparent p-6 rounded-2xl shadow-lg border border-border dark:border-primary text-center">
           <img
             loading="lazy"
             src={assets.ali}
             alt="Ali Khadr"
-            className="w-32 h-32 rounded-full mx-auto border-4 border-white dark:border-darkText shadow-lg group-hover:scale-105 transition-transform"
+            className="w-32 h-32 rounded-full mx-auto border-2 border-white dark:border-primary shadow-lg group-hover:scale-105 transition-transform"
           />
           <h4 className="mt-4 font-bold dark:text-navbar">Ali Khadr</h4>
           <div className="flex justify-center gap-4 mt-3">
@@ -106,7 +106,7 @@ const Team = () => {
             </a>
             <a
               href="mailto:ali.ah23th5277@gmail.com"
-              className="text-gray-400 dark:text-darkDesc hover:scale-110 transition-transform text-2xl"
+              className="text-gray-400 dark:text-darkDesc hover:scale-110 transition-transform text-[25px]"
             >
               <MdEmail />
             </a>
@@ -114,12 +114,12 @@ const Team = () => {
         </div>
 
         {/* Duaa */}
-        <div className="group bg-transparent p-6 rounded-2xl shadow-lg border-2 border-border dark:border-darkText text-center">
+        <div className="group bg-transparent p-6 rounded-2xl shadow-lg border border-border dark:border-primary text-center">
           <img
             loading="lazy"
             src={assets.duaa}
             alt="Duaa Tarek"
-            className="w-32 h-32 rounded-full mx-auto border-4 border-white dark:border-darkText shadow-lg group-hover:scale-105 transition-transform"
+            className="w-32 h-32 rounded-full mx-auto border-2 border-white dark:border-primary shadow-lg group-hover:scale-105 transition-transform"
           />
           <h4 className="mt-4 font-bold dark:text-navbar">Duaa Tarek</h4>
           <div className="flex justify-center gap-4 mt-3">
@@ -132,7 +132,7 @@ const Team = () => {
             </a>
             <a
               href="mailto:duaatarek.a@gmail.com"
-              className="text-gray-400 dark:text-darkDesc hover:scale-110 transition-transform text-2xl"
+              className="text-gray-400 dark:text-darkDesc hover:scale-110 transition-transform text-[25px]"
             >
               <MdEmail />
             </a>
@@ -140,12 +140,12 @@ const Team = () => {
         </div>
 
         {/* David Raoof */}
-        <div className="group bg-transparent p-6 rounded-2xl shadow-lg border-2 border-border dark:border-darkText text-center">
+        <div className="group bg-transparent p-6 rounded-2xl shadow-lg border border-border dark:border-primary text-center">
           <img
             loading="lazy"
             src={assets.david}
             alt="David"
-            className="w-32 h-32 rounded-full mx-auto border-4 border-white dark:border-darkText shadow-lg group-hover:scale-105 transition-transform"
+            className="w-32 h-32 rounded-full mx-auto border-2 border-white dark:border-primary shadow-lg group-hover:scale-105 transition-transform"
           />
           <h4 className="mt-4 font-bold dark:text-navbar">David Raoof</h4>
           <div className="flex justify-center gap-4 mt-3">
@@ -158,7 +158,7 @@ const Team = () => {
             </a>
             <a
               href="mailto:david.raoofz@gmail.com"
-              className="text-gray-400 dark:text-darkDesc hover:scale-110 transition-transform text-2xl"
+              className="text-gray-400 dark:text-darkDesc hover:scale-110 transition-transform text-[25px]"
             >
               <MdEmail />
             </a>
