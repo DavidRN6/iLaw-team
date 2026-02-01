@@ -38,7 +38,7 @@ const Contact = () => {
       {/*=================
         3. Contact Head
       ====================*/}
-      <div className="max-w-2xl mx-auto bg-transparent p-8 rounded-2xl shadow-lg border border-border dark:border-darkText">
+      <div className="max-w-2xl mx-auto bg-transparent p-8 rounded-2xl shadow-lg border border-border dark:border-darkDesc">
         <h3 className="text-xl font-bold mb-2 text-center dark:text-navbar">
           Contact the Team
         </h3>
