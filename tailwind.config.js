@@ -13,7 +13,6 @@ export default {
 
         secondary: "#0C091C",
         darkText: "#BF4EF4",
-        darkBorder: "#1A1A2E",
         darkDesc: "#d1d5db",
       },
     },

@@ -5,7 +5,7 @@ import { IoMdMoon } from "react-icons/io";
 
 function DarkMode() {
   const [theme, setTheme] = useState(
-    localStorage.getItem("theme") ? localStorage.getItem("theme") : "light"
+    localStorage.getItem("theme") ? localStorage.getItem("theme") : "light",
   );
 
   const element = document.documentElement; // html element
@@ -27,7 +27,7 @@ function DarkMode() {
         alt="Light mode icon"
         onClick={() => setTheme(theme === "light" ? "dark" : "light")}
         className={`w-7 cursor-pointer
-        drop-shadow-[1px_1px_1px_rgba(0,0,0,0.1)] transition-all
+        transition-all
         duration-300 absolute right-0 z-10
         ${theme === "dark" ? "opacity-0" : "opacity-100"}`}
       />
@@ -35,7 +35,6 @@ function DarkMode() {
       <IoMdMoon
         onClick={() => setTheme(theme === "light" ? "dark" : "light")}
         className={`w-7 text-2xl text-background cursor-pointer
-        drop-shadow-[1px_1px_1px_rgba(0,0,0,0.1)]
         transition-all duration-300
         ${theme === "dark" ? "opacity-100" : "opacity-0"}`}
       />
